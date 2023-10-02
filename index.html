@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segurança Cibernética</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+
+<body>
+    <!--HEADER-->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <!-- Logo e Nome -->
+                <img src="logo.png" alt="" width="50px" height="50px">
+                <h2 id="titulo-header">Segurança Cibernética</h2>
+
+                <!-- ITENS DO MENU -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#section-malwares">Malwares</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#section-criptografia">Criptografia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#section-dicas">Dicas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#section-senha">Senhas</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- SECTION 1 - TEXTO (O que segurança cibernética)-->
+    <section id="section-seguranca">
+        <div id="seguranca">
+            <div id="texto-seguranca">
+                <h1 style="margin-bottom: 25px;">Segurança Cibernética</h1>
+                <p>A segurança cibernética é um campo essencial no mundo digital moderno, focado em proteger dados, sistemas e redes contra ameaças digitais. Envolve práticas, tecnologias e processos projetados para prevenir ataques maliciosos, como hackers, malware e phishing. Criptografia, firewalls e sistemas de detecção de intrusos são usados para proteger informações sensíveis, enquanto a conscientização e a educação dos usuários desempenham um papel fundamental na prevenção de ataques. A inteligência artificial e a aprendizagem de máquina são cada vez mais empregadas para identificar padrões incomuns e prever possíveis ameaças. No entanto, a segurança cibernética nunca é uma solução definitiva; é um esforço contínuo que exige aprimoramento constante das habilidades e estratégias para enfrentar as evoluções das ameaças digitais. Em última análise, a segurança cibernética é crucial para manter a confiança na economia digital global, garantindo um ambiente online seguro para a inovação e a colaboração prosperarem.</p>
+            </div>
+        </div>
+    </section><br><br><br>
+
+    
+    <!-- SECTION 2 - CAROUSEL (Malwares) -->
+    <section id="section-malwares">
+        <h1>Principais Malwares</h1>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                
+                <!-- Imagem 1 - Trojan Horse -->
+                <div class="carousel-item active">
+                    <div class="carousel-img-lg"> <!--lg-->
+                        <img src="1-trojan-lg.png" class="d-block w-90 img-carousel" alt="trojan">
+                    </div>
+                    <div class="carousel-img-md"> <!--md-->
+                        <img src="1-trojan-md.png" class="d-block w-90 img-carousel" alt="trojan"> 
+                    </div>
+                    <div class="carousel-img-sm"> <!--sm-->
+                        <img src="1-trojan-sm.png" class="d-block w-90 img-carousel" alt="trojan">
+                    </div>
+                </div>
+                
+                <!-- Imagem 2 - Ransomware -->
+                <div class="carousel-item">
+                    <div class="carousel-img-lg"> <!--lg-->
+                        <img src="2-ransomware-lg.png" class="d-block w-90 img-carousel" alt="ransomware">
+                    </div>
+                    <div class="carousel-img-md"> <!--md-->
+                        <img src="2-ransomware-md.png" class="d-block w-90 img-carousel" alt="ransomware">
+                    </div>
+                    <div class="carousel-img-sm"> <!--sm-->
+                        <img src="2-ransomware-sm.png" class="d-block w-90 img-carousel" alt="ransomware">
+                    </div>
+                </div>
+                
+                <!-- Imagem 3 - Phishing -->
+                <div class="carousel-item">
+                    <div class="carousel-img-lg"> <!--lg-->
+                        <img src="3-phishing-lg.png" class="d-block w-90 img-carousel" alt="phishing">
+                    </div>
+                    <div class="carousel-img-md"> <!--md-->
+                        <img src="3-phishing-md.png" class="d-block w-90 img-carousel" alt="phishing">
+                    </div>
+                    <div class="carousel-img-sm"> <!--sm-->
+                        <img src="3-phishing-sm.png" class="d-block w-90 img-carousel" alt="phishing">
+                    </div>
+                </div>
+
+                <!-- Imagem 4 - Adware -->
+                <div class="carousel-item">
+                    <div class="carousel-img-lg"> <!--lg-->
+                        <img src="4-adware-lg.png" class="d-block w-90 img-carousel" alt="adware">
+                    </div>
+                    <div class="carousel-img-md"> <!--md-->
+                        <img src="4-adware-md.png" class="d-block w-90 img-carousel" alt="adware">
+                    </div>
+                    <div class="carousel-img-sm"> <!--sm-->
+                        <img src="4-adware-sm.png" class="d-block w-90 img-carousel" alt="adware">
+                    </div>
+                </div>
+
+                <!-- Imagem 5 - Keylogger -->
+                <div class="carousel-item">
+                    <div class="carousel-img-lg"> <!--lg-->
+                        <img src="5-keylogger-lg.png" class="d-block w-90 img-carousel" alt="keylogger">
+                    </div>
+                    <div class="carousel-img-md"> <!--md-->
+                        <img src="5-keylogger-md.png" class="d-block w-90 img-carousel" alt="keylogger">
+                    </div>
+                    <div class="carousel-img-sm"> <!--sm-->
+                        <img src="5-keylogger-sm.png" class="d-block w-90 img-carousel" alt="keylogger">
+                    </div>
+                </div>
+
+                <!-- Imagem 6 - Botnet -->
+                <div class="carousel-item">
+                    <div class="carousel-img-lg"> <!--lg-->
+                        <img src="6-botnet-lg.png" class="d-block w-90 img-carousel" alt="botnet">
+                    </div>
+                    <div class="carousel-img-md"> <!--md-->
+                        <img src="6-botnet-md.png" class="d-block w-90 img-carousel" alt="botnet">
+                    </div>
+                    <div class="carousel-img-sm"> <!--sm-->
+                        <img src="6-botnet-sm.png" class="d-block w-90 img-carousel" alt="botnet">
+                    </div>
+                </div>
+            
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section><br><br><br>
+
+
+    <!-- SECTION 3 - FOTO ao lado de TEXTO (Criptografia) -->
+    <section id="section-criptografia">
+        <h1>Criptografia</h1>
+        <div class="card mb-3" style="max-width: 1500px;">
+            <div class="row g-0">
+                <div class="col-lg-6 col-md-12">
+                    <img src="criptografia.png" class="img-fluid rounded-start" alt="criptografia">
+                </div>
+                <div class="col-lg-6 col-md-12" style="margin: auto;">
+                    <div class="card-body">
+                        <h5 class="card-title">O que é a criptografia?</h5>
+                        <p class="card-text">A criptografia é o processo de codificação de informações de modo que apenas o destinatário autorizado possa decifrá-las.</p>
+                        <br>
+                        <h5 class="card-title">A importância da criptografia na segurança?</h5>
+                        <p class="card-text">Ela é indispensável na proteção de dados digitais, sua importância consiste na garantia de confidencialidade (impedindo acesso não autorizado aos dados) e integridade (detectando alterações). Além disso, oferece autenticidade e não-repúdio dos dados por meio de assinaturas digitais.</p>
+                        <br>
+                        <h5 class="card-title">Por que usar a criptografia?</h5>
+                        <p class="card-text">Ao adotar a criptografia, indivíduos e organizações fortalecem a segurança, reduzindo riscos de acesso, manipulação e comprometimento de informações sensíveis.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><br><br>
+
+    
+    <!-- SECTION 4 - CARDS (dicas)-->
+    <section id="section-dicas">
+        <h1>Dicas</h1>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 cards-col">
+            <!-- Card = Senhas -->
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card card-tradicional">
+                    <div class="img-card">
+                        <img src="card-senha.png" width="100%" height="100%" alt="senha">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Senhas</h4>
+                        <h6 class="card-text">Use senhas fortes;</h6>
+                        <h6 class="card-text">Autenticação em dois fatores;</h6>
+                        <h6 class="card-text">Não repetir senhas;</h6>
+                        <h6 class="card-text">Não compartilhar senha.</h6>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card = Celular e PC -->
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card card-tradicional">
+                    <div class="img-card">
+                        <img src="card-pc.png" width="100%" height="100%" alt="celular-pc">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Celular e PC</h4>
+                        <h6 class="card-text">Faça backups regulares de seus arquivos importantes;</h6>
+                        <h6 class="card-text">Criptografe dispositivos de armazenamento portáteis;</h6>
+                        <h6 class="card-text">Armazene arquivos em serviços de nuvem com criptografia.</h6>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card = Internet -->
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card card-tradicional">
+                    <div class="img-card">
+                        <img src="card-internet.png" width="100%" height="100%" alt="internet">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Internet</h4>
+                        <h6 class="card-text">Verifique a autenticidade dos sites antes de inserir informações
+                            pessoais;
+                        </h6>
+                        <h6 class="card-text">Utilize VPNs para proteger suas conexões com a internet;</h6>
+                        <h6 class="card-text">Tenha cuidado ao clicar em links e anexos em emails ou sites
+                            desconhecidos.</h6>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card = Backup -->
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card card-tradicional">
+                    <div class="img-card">
+                        <img src="card-backup.png" width="100%" height="100%" alt="backup">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Backup</h4>
+                        <h6 class="card-text">Faça backups regulares de seus arquivos importantes;</h6>
+                        <h6 class="card-text">Criptografe dispositivos de armazenamento portáteis;</h6>
+                        <h6 class="card-text">Armazene arquivos em serviços de nuvem com criptografia.</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><br>
+    
+    
+    <!-- SECTION 5 - CARDS REDONDO (Senha forte)  + FOOTER -->
+    <section id="section-senha">
+        <h1>Criando uma senha forte</h1>
+        <div class="row row-cols-2 row-cols-md-3 row-cols-lg-6 cards-col">
+            
+            <!-- Dica 1 -->
+            <div class="col-6 col-md-4 col-lg-2">
+                <div class="card ratio ratio-1x1 rounded-circle overflow-hidden">
+                    <div class="img-card">
+                        <img src="dica-1.png" class="card-img-top img-cover" width="100%" height="100%" alt="dica-1">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dica 2 -->
+            <div class="col-6 col-md-4 col-lg-2">
+                <div class="card ratio ratio-1x1 rounded-circle overflow-hidden">
+                    <div class="img-card">
+                        <img src="dica-2.png" class="card-img-top img-cover" width="100%" height="100%" alt="dica-2">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dica 3 -->
+            <div class="col-6 col-md-4 col-lg-2">
+                <div class="card ratio ratio-1x1 rounded-circle overflow-hidden">
+                    <div class="img-card">
+                        <img src="dica-3.png" class="card-img-top img-cover" width="100%" height="100%" alt="dica-3">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dica 4 -->
+            <div class="col-6 col-md-4 col-lg-2">
+                <div class="card ratio ratio-1x1 rounded-circle overflow-hidden">
+                    <div class="img-card">
+                        <img src="dica-4.png" class="card-img-top img-cover" width="100%" height="100%" alt="dica-4">
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Dica 5 -->
+            <div class="col-6 col-md-4 col-lg-2">
+                <div class="card ratio ratio-1x1 rounded-circle overflow-hidden">
+                    <div class="img-card">
+                        <img src="dica-5.png" class="card-img-top img-cover" width="100%" height="100%" alt="dica-5">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dica 6 -->
+            <div class="col-6 col-md-4 col-lg-2">
+                <div class="card ratio ratio-1x1 rounded-circle overflow-hidden">
+                    <div class="img-card">
+                        <img src="dica-6.png" class="card-img-top img-cover" width="100%" height="100%" alt="dica-6">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <div id="footer">
+            <div class="container p-4 pb-0">
+                <div class="footer-pt1">
+
+                    <p class="p-footer">
+                        Este site foi é um projeto em conjunto com as disciplinas "Desenvolvimento Front-End" e
+                        "Arquitetura de Computadores", feito pelo aluno Daniel Souza do curso de Ciência da
+                        Computação da Universidade Católica de Brasília - UCB.
+                    </p>
+                    <p class="p-footer">
+                        Gostaria de agradecer aos professores Hially Vaguetti (Desenvolvimento Front-End) e
+                        Guilherme Lannes (Arquitetura de Computadores) por sua orientação excepcional. A realização
+                        desse projeto só foi possível graças aos ensinamentos e dedicação de ambos.
+                    </p>
+                </div>
+            </div>
+
+            <div class="text-center p-3 p-footer-2">
+                © 2023 Segurança Cibernética
+            </div>
+        </div>
+    </section>
+    
+    
+    <!-- Back to Top -->
+    <a href="#" class="botao-topo"> <img src="back-to-top.png" alt="back-to-top" style="width: 50px; height: 50px;"> </a>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
+
+
+<!--
+    <section id="section-senha">
+        <h1>Criando uma senha forte</h1>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 cards-redondos-col"></div>
+                    
+            <div class="ratio ratio-1x1 rounded-circle overflow-hidden">
+                <img src="ciber_original.jpg" class="card-img-top img-cover" alt="senha">
+            </div>
+            <div>
+                <h4>Ter mais de 8 caracteres</h4>
+                <h4>Usar letras maiúsculas e minúsculas</h4>
+                <h4>Usar números</h4>
+                <h4>Usar caracteres especiais (@, !, ?, $, #)</h4>
+                <h4>Evite combinações óbvias</h4>
+                <h4>Evite datas que outros possam conhecer</h4>    
+            </div>            
+        </div>        
+    </section><br><br><br>
+    -->
