@@ -145,11 +145,10 @@ h1 {
 /* SECTION 1 - TEXTO (Segurança Cibernética) */
 #section-seguranca{
     width: 100%;
-    height: auto;
 }
 #seguranca {
     width: 100%;
-    height: auto;
+    height: 900px;
     background-image: url(ciber.png);
     background-position: top;
     background-repeat: no-repeat;
