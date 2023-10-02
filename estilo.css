@@ -11,6 +11,9 @@
 
 /* MEDIA SCREENS */
 @media screen and (min-width:100px) and (max-width:576px) {  /*tela xs*/
+    #seguranca {
+        height: 1000px;
+    }
     .carousel-img-lg,
     .carousel-img-md {
         display: none;
@@ -35,6 +38,9 @@
     }
 }
 @media screen and (min-width:577px) and (max-width:768px) {  /*tela sm*/
+    #seguranca {
+        height: 1000px;
+    }
     .carousel-img-lg,
     .carousel-img-md {
         display: none;
@@ -59,6 +65,9 @@
     }
 }
 @media screen and (min-width:769px) and (max-width:991px) {  /*tela md*/
+    #seguranca {
+        height: 900px;
+    }
     .carousel-img-lg,
     .carousel-img-sm {
         display: none;
@@ -83,6 +92,9 @@
     }
 }
 @media screen and (min-width:992px) {  /*tela lg*/
+    #seguranca {
+        height: 900px;
+    }
     .carousel-img-md,
     .carousel-img-sm {
         display: none;
@@ -149,7 +161,6 @@ h1 {
 }
 #seguranca {
     width: 100%;
-    height: 900px;
     background-image: url(ciber.png);
     background-position: top;
     background-repeat: no-repeat;
